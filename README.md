@@ -1,31 +1,35 @@
 # Cimet - Developer Assignment
-This is our assignment for developer interviews
- 
-Your task is to build a React application. The mockups have creditcard data, but you should replace it with the electricity data from the API response.
 
-Build a product listing page
- 
-- request a list of products using the REST api detailed below
+Your task is to build a React.JS application.
+
+Build a product listing page with one of the following options:
 - render products in a table view
+- render products in a card view
 
- ![image](https://user-images.githubusercontent.com/19356394/173720984-76cb2806-4a3b-46a6-8743-6398d50afa61.png)
+Product data displayed should be using the REST API provided below.
 
+Reference desing:
 
-Our expectations:
- 
-- Good codebase structure
-- ES6
-- Surprise us
+![image](https://user-images.githubusercontent.com/107451003/173731342-13987f80-ac0d-4bfd-bfb6-e6fd1b510dd8.png)
+
  
 ## Notes
  
 Feel free to use any boilerplate or libraries to help you achieve a result.
+We are expecting:
+- Good codebase structure
+- ES6
+- Showcase your skills ![image](https://img.shields.io/static/v1?label=&message=wow&color=green)
  
 ## Deliverable
- 
-#### Please don't push branches,
- 
-Submit a pull request against this repository. Developers will review your code and ask you questions in the pull request.
+
+``` diff 
+- Please don't push branches.
+- Please don't make copies of this repository.
+- Please don't share details with others.
+```
+
+Submit a pull request against this repository. 
  
 We will pull your code and execute the following commands:
  
