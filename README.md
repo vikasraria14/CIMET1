@@ -9,7 +9,10 @@ Build a product listing page with one of the following options:
 Product data displayed should be using the REST API provided below.
 
 Reference desing:
+Table view
+![image](https://user-images.githubusercontent.com/19356394/173732953-4dcc11a6-a823-4cc0-9fff-429d5f5af3b3.png)
 
+Card View
 ![image](https://user-images.githubusercontent.com/107451003/173731342-13987f80-ac0d-4bfd-bfb6-e6fd1b510dd8.png)
 
  
