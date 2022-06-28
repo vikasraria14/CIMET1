@@ -28,7 +28,7 @@ We are expecting:
 - Please don't share details with others.
 ```
 
-Submit a pull request against this repository. 
+Make a Fork and Submit a pull request against this repository. 
  
 We will pull your code and execute the following commands:
  
