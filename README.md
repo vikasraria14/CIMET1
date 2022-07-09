@@ -4,6 +4,9 @@ Your task is to build a React.JS application.
 
 Build a product listing page with one of the following options:
 - render products in a table view
+
+or
+
 - render products in a card view
 
 Product data displayed should be using the REST API provided below.
