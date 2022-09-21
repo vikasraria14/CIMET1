@@ -23,7 +23,7 @@ We are expecting:
 - ES6
 - Showcase your skills ![image](https://img.shields.io/static/v1?label=&message=wow&color=green)
  
-**Time limit is 5 days. If you need help please email: xgou@cimet.com.au**
+**Time limit is 3 days. If you need help please email: xgou@cimet.com.au**
 
 ## Deliverable
 
