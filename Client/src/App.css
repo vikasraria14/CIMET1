@@ -1,0 +1,179 @@
+html,
+body {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+
+}
+
+.cardWrapper {
+  position: relative;
+  width: 96%;
+  margin: 1%;
+  margin-top: 2%;
+  border: 1px solid grey;
+
+  border-radius: 15px;
+}
+
+.left {
+  width: 28%;
+  padding: 1%;
+  text-align: center;
+}
+
+.middle {
+  width: 38%;
+  padding: 1%;
+  text-align: center;
+
+}
+
+.right {
+  width: 28%;
+  padding: 1%;
+  margin: auto;
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin: 3px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul li:before {
+  content: '✓';
+  width: 100%;
+  color: green;
+  font-weight: 900;
+
+}
+
+p {
+  display: inline-block;
+  margin: 0px;
+}
+
+.middleTop {
+  background-color: rgb(246, 243, 243);
+  margin: auto;
+  text-align: left;
+  width: fit-content;
+  padding: 10px;
+}
+
+.middleBottom {
+  background-color: rgb(177, 196, 248);
+  padding: 2px;
+  margin-top: 4px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+img {
+  width: 70px;
+  height: 50px;
+}
+
+c {
+  color: rgb(96, 96, 244);
+  font-weight: bold;
+}
+
+.table {
+  background-color: rgba(89, 89, 244, 0.458);
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: left;
+
+}
+
+.tableTop {
+  background-color: rgb(72, 72, 254);
+  color: white;
+  padding-left: 8px;
+  height: 25px;
+}
+
+.tableBottom {
+  padding-left: 8px;
+}
+
+.year {
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+}
+
+.month {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+.bottomBottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgb(241, 235, 235);
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+button {
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.bottomTop {
+  font-size: 10px;
+  margin: 15px;
+}
+
+.terms {
+
+  height: 40px;
+  margin: 10px;
+}
+
+.terms ul {
+  margin-bottom: 10px;
+}
+
+.electricity,
+.solar {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgb(248, 241, 241);
+  border-radius: 5px;
+  position: absolute;
+}
+
+.electricity {
+  left: 4%;
+  top: -5%;
+}
+
+.solar {
+  left: 10%;
+  top: -5%;
+}
