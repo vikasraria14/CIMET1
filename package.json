@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install concurrently && npm run install-server && npm run install-client",
+    "start-server": "cd server && node index.js",
+    "start-client": " cd client && npm start",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/vikasraria14/CIMET-assignment/issues"
   },
-  "homepage": "https://github.com/vikasraria14/CIMET-assignment#readme"
+  "homepage": "https://github.com/vikasraria14/CIMET-assignment#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
 }
