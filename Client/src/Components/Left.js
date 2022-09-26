@@ -6,9 +6,9 @@ const Left=({plan})=>{
             
             <img alt="" src={image}/>
             <br/>
-            <c>View Details</c>
+            <p className="highlight">View Details</p>
             <br/>
-            <c>Basic Plan information Document</c>
+            <p className="highlight">Basic Plan information Document</p>
         </div>
     )
 }
